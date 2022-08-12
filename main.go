@@ -3,13 +3,13 @@ package mylogger
 import "log"
 
 func LogInfo(message string) {
-	log.Println("INFO -%v", message)
+	log.Printf("INFO -%v\n", message)
 }
 
 func LogWarning(message string) {
-	log.Println("WARN -%v", message)
+	log.Printf("WARN -%v\n", message)
 }
 
 func LogError(message string) {
-	log.Println("ERROR -%v", message)
+	log.Printf("ERROR -%v\n", message)
 }
